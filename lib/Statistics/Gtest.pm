@@ -6,7 +6,7 @@ use strict;
 use vars qw($VERSION);
 use IO::File;
 
-$VERSION = '0.03';
+$VERSION = '0.04';
 
 my $self;
 
@@ -494,7 +494,7 @@ C<Statistics::Distributions> module:
  my $df = $gt->getDF();
  my $g = $gt->getG();
  my $sig = '.05';
- my $chis=Statistics::Distributions::chisqrdistr ($df,$sv);
+ my $chis=Statistics::Distributions::chisqrdistr ($df,$sig);
  if ($g > $chis) {
    print "$g: Sig. at the $sv level. ($chis cutoff)\n"
  } 

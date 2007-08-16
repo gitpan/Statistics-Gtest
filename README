@@ -1,4 +1,4 @@
-                    Statistics::Gtest version 0.03
+                    Statistics::Gtest version 0.04
                     ==============================
 
 NAME
@@ -74,7 +74,7 @@ OVERVIEW and EXAMPLES
      my $df = $gt->getDF();
      my $g = $gt->getG();
      my $sig = '.05';
-     my $chis=Statistics::Distributions::chisqrdistr ($df,$sv);
+     my $chis=Statistics::Distributions::chisqrdistr ($df,$sig);
      if ($g > $chis) {
        print "$g: Sig. at the $sv level. ($chis cutoff)\n"
      } 
@@ -96,7 +96,7 @@ INSTALLATION
     To install this module type the following:
 
     perl Makefile.PL ARGS (see the ExtUtils::MakeMaker documentation for
-	                        possible arguments)
+                           possible arguments)
     make
     make test
     make install
