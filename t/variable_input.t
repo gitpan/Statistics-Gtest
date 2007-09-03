@@ -50,7 +50,6 @@ foreach my $initiator (@test_objects) {
    if ($initiator->{'exp'}->[9] != 0) { 
 		$g->setExpected("90 30 30 10");	
 	}	
-	my $tlen = 17;
 	is($g->{'intrinsic'}, $initiator->{'exp'}->[10], "hypothesis type = 0");
 	like($g->getQ(), $initiator->{'exp'}->[12], "Williams Q re");
 	like($g->getRawG(), $initiator->{'exp'}->[13], "Raw G");

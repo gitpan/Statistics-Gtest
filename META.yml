@@ -1,8 +1,8 @@
 --- #YAML:1.0
 name:                Statistics-Gtest
-version:             0.04
+version:             0.05
 abstract:            calculate G-statistic for tabular data
-license:             ~
+license:             perl
 generated_by:        ExtUtils::MakeMaker version 6.36
 distribution_type:   module
 requires:     

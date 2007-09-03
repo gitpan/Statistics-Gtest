@@ -1,5 +1,12 @@
 Revision history for Perl extension Statistics::Gtest.
 
+0.05  Mon Sep  3 17:21:03 2007
+	- add getDFstate()
+	- add getHypothesis()
+	- add getExpected()
+	- add getObserved()
+	- use Carp.pm
+
 0.04  Thu Aug 16 07:48:07 2007
 	- documentation fix
 	- fixes to 'make test'

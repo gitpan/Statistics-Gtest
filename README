@@ -1,4 +1,4 @@
-                    Statistics::Gtest version 0.04
+                    Statistics::Gtest version 0.05
                     ==============================
 
 NAME
@@ -103,6 +103,7 @@ INSTALLATION
 
 DEPENDENCIES
 
+    Carp
     IO::File
 
 COPYRIGHT AND LICENCE
