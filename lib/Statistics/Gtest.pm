@@ -7,7 +7,7 @@ use vars qw($VERSION);
 use Carp;
 use IO::File;
 
-$VERSION = '0.05';
+$VERSION = '0.06';
 
 my $self;
 

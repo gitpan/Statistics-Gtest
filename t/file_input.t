@@ -1,10 +1,9 @@
 # Before `make install' is performed this script should be runnable with 
-# `make test'. After `make install' it should work as `perl Gtest.t'
+# `make test'. After `make install' it should work as `perl file_input.t'
 
 #########################
-
-use Test::More; BEGIN { use_ok('Statistics::Gtest') };
-
+use Test::More; 
+use Statistics::Gtest;
 #########################
 
 my $twothreefile = "t/2x3int.txt";
