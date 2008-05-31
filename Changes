@@ -1,5 +1,12 @@
 Revision history for Perl extension Statistics::Gtest.
 
+0.07  Sat May 31 08:29:07 2008
+	- additional modifications for 'make test'
+	- documentation fix
+
+0.06  Sun May 18 21:43:13 2007
+	- fixes to 'make test'
+
 0.05  Mon Sep  3 17:21:03 2007
 	- add getDFstate()
 	- add getHypothesis()

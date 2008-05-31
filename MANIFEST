@@ -1,6 +1,7 @@
 Changes
 Makefile.PL
 MANIFEST
+LICENSE
 README
 t/1x4int.txt
 t/2x3int.txt
